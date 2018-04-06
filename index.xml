@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>geo blog</title>
+    <title>blogeo</title>
     <link>https://geonnave.github.io/</link>
-    <description>Recent content on geo blog</description>
+    <description>Recent content on blogeo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Apr 2016 21:27:45 -0300</lastBuildDate>
@@ -29,6 +29,15 @@ First, a bit of context. I’ve read Joe Armstrong’s PhD thesis “Making reli
       <guid>https://geonnave.github.io/posts/sonho-de-pia/</guid>
       <description>Outro dia realizei um sonho de piá. Comprei uma moto, daquelas que os rockerão dos filmes e o Exterminador do Futuro tinham. Não, não é uma Harley, mas tem o estilo custom e foi suficiente pra dar aquele gelo no coração no dia em que a adotei.
 Este fatídico dia vai ficar pra sempre na memória. Morando em São Paulo, na capital, pulei da cama antes do sol nascer e fui pra rodoviária.</description>
+    </item>
+    
+    <item>
+      <title>About Geovane</title>
+      <link>https://geonnave.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geonnave.github.io/about/</guid>
+      <description>You can call me Geo :)</description>
     </item>
     
   </channel>

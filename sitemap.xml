@@ -13,7 +13,41 @@
   </url>
   
   <url>
+    <loc>https://geonnave.github.io/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/elixir/</loc>
+    <lastmod>2016-04-22T21:27:45-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/emo%C3%A7%C3%A3o/</loc>
+    <lastmod>2015-12-01T19:20:12-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/erlang/</loc>
+    <lastmod>2016-04-22T21:27:45-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/from-scratch/</loc>
+    <lastmod>2016-04-22T21:27:45-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/genserver/</loc>
+    <lastmod>2016-04-22T21:27:45-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -24,7 +58,38 @@
   </url>
   
   <url>
+    <loc>https://geonnave.github.io/categories/programming/</loc>
+    <lastmod>2016-04-22T21:27:45-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/categories/relatos/</loc>
+    <lastmod>2015-12-01T19:20:12-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/shadow-600/</loc>
+    <lastmod>2015-12-01T19:20:12-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/sonho/</loc>
+    <lastmod>2015-12-01T19:20:12-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/tags/</loc>
+    <lastmod>2016-04-22T21:27:45-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/viagem/</loc>
+    <lastmod>2015-12-01T19:20:12-03:00</lastmod>
     <priority>0</priority>
   </url>
   
