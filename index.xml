@@ -49,5 +49,18 @@ Este fatídico dia vai ficar pra sempre na memória. Morando em São Paulo, na c
       <description>You can call me Geo :)</description>
     </item>
     
+    <item>
+      <title>Projects</title>
+      <link>https://geonnave.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geonnave.github.io/projects/</guid>
+      <description> primg A tool that generates prime numbers whose binary representation looks like any image.
+Link: http://geonnave.github.io/primg/
+Source: https://github.com/geonnave/primg
+WooLed A led panel made with an wooden structure, an arduino, shift registers, and a lot of wiring. See it in action in this video.
+  -- </description>
+    </item>
+    
   </channel>
 </rss>
