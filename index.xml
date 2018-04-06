@@ -6,10 +6,19 @@
     <description>Recent content on geo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Apr 2018 19:20:12 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 05 Apr 2018 21:27:45 -0300</lastBuildDate>
     
 	<atom:link href="https://geonnave.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How gen_server works: implementing a subset of it in Elixir</title>
+      <link>https://geonnave.github.io/posts/how-genserver-works/</link>
+      <pubDate>Thu, 05 Apr 2018 21:27:45 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/posts/how-genserver-works/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Do Sonho de Piá, Encontro com a Trovoada e a Primeira Viagem</title>
