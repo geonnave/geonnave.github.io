@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geo</title>
+    <link>https://geonnave.github.io/</link>
+    <description>Recent content on geo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Apr 2018 19:20:12 -0300</lastBuildDate>
+    
+	<atom:link href="https://geonnave.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Do Sonho de Piá, Encontro com a Trovoada e a Primeira Viagem</title>
+      <link>https://geonnave.github.io/posts/sonho-de-pia/</link>
+      <pubDate>Thu, 05 Apr 2018 19:20:12 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/posts/sonho-de-pia/</guid>
+      <description>Outro dia realizei um sonho de piá. Comprei uma moto, daquelas que os rockerão dos filmes e o Exterminador do Futuro tinham. Não, não é uma Harley, mas tem o estilo custom e foi suficiente pra dar aquele gelo no coração no dia em que a adotei.
+Este fatídico dia vai ficar pra sempre na memória. Morando em São Paulo, na capital, pulei da cama antes do sol nascer e fui pra rodoviária.</description>
+    </item>
+    
+  </channel>
+</rss>
