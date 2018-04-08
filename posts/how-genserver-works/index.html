@@ -192,57 +192,54 @@ match against a pattern.</p>
 
 <p>For a deeper understanding, nothing better than the whole code (read the
 comments as they were part of this blog post):</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elixir" data-lang="elixir">defmodule <span style="color:#0a8;font-weight:bold">MyGenServer</span> do
 
-<pre><code class="language-elixir">defmodule MyGenServer do
-
-  @doc &quot;&quot;&quot;
-  Spawns a new MyGenServer process which can be further referenced by `name`Spawns a new MyGenServer process which can be further referenced by `name`
-  `name` is normally an atom and will be used as an alias of a process' pid
-  `f` is a function that the programmer using MyGenServer will have to implement
-  `state` is the initial state of the MyGenServer process
-  &quot;&quot;&quot;
+  <span style="color:#309">@doc</span> <span style="color:#c30">&#34;&#34;&#34;
+</span><span style="color:#c30">  Spawns a new MyGenServer process which can be further referenced by `name`Spawns a new MyGenServer process which can be further referenced by `name`
+</span><span style="color:#c30">  `name` is normally an atom and will be used as an alias of a process&#39; pid
+</span><span style="color:#c30">  `f` is a function that the programmer using MyGenServer will have to implement
+</span><span style="color:#c30">  `state` is the initial state of the MyGenServer process
+</span><span style="color:#c30">  &#34;&#34;&#34;</span>
   def start(name, f, state) do
-    fn -&gt; loop(name, f, state) end
-    |&gt; spawn
-    |&gt; Process.register(name)
+    fn <span style="color:#555">-&gt;</span> loop(name, f, state) end
+    <span style="color:#555">|&gt;</span> spawn
+    <span style="color:#555">|&gt;</span> <span style="color:#0a8;font-weight:bold">Process</span><span style="color:#555">.</span>register(name)
   end
 
-  @doc &quot;&quot;&quot;
-  Stop the MyGenServer process execution
-  &quot;&quot;&quot;
-  def stop(name), do: send name, :stop
+  <span style="color:#309">@doc</span> <span style="color:#c30">&#34;&#34;&#34;
+</span><span style="color:#c30">  Stop the MyGenServer process execution
+</span><span style="color:#c30">  &#34;&#34;&#34;</span>
+  def stop(name), <span style="color:#fc3">do</span>: send name, <span style="color:#fc3">:stop</span>
 
-  @doc &quot;&quot;&quot;
-  Communicate with the MyGenServer process identified by `name`
-  The function `loop` implements the other side of this communication.
-  &quot;&quot;&quot;
+  <span style="color:#309">@doc</span> <span style="color:#c30">&#34;&#34;&#34;
+</span><span style="color:#c30">  Communicate with the MyGenServer process identified by `name`
+</span><span style="color:#c30">  The function `loop` implements the other side of this communication.
+</span><span style="color:#c30">  &#34;&#34;&#34;</span>
   def call(name, query) do
-    send name, {self(), query} #a
+    send name, {self(), query} <span style="color:#09f;font-style:italic">#a</span>
 
-    receive do                 #b
-      {^name, reply} -&gt; reply
+    receive do                 <span style="color:#09f;font-style:italic">#b</span>
+      {<span style="color:#555">^</span>name, reply} <span style="color:#555">-&gt;</span> reply
     end
   end
 
-  @doc &quot;&quot;&quot;
-  The &quot;main&quot; routine of the MyGenServer
-  Receive a request (a message sent from `call` function), process
-  it and send back a response.
-  &quot;&quot;&quot;
+  <span style="color:#309">@doc</span> <span style="color:#c30">&#34;&#34;&#34;
+</span><span style="color:#c30">  The &#34;main&#34; routine of the MyGenServer
+</span><span style="color:#c30">  Receive a request (a message sent from `call` function), process
+</span><span style="color:#c30">  it and send back a response.
+</span><span style="color:#c30">  &#34;&#34;&#34;</span>
   def loop(name, f, state) do
-    receive do                             #c
-      :stop -&gt;
+    receive do                             <span style="color:#09f;font-style:italic">#c</span>
+      <span style="color:#fc3">:stop</span> <span style="color:#555">-&gt;</span>
         nil
-      {pid, query} -&gt;
-        {reply, state1} = f.(query, state) # this is important!
-        send pid, {name, reply}            #d
-        loop(name, f, state1)              # tail-call to wait on #c again!
+      {pid, query} <span style="color:#555">-&gt;</span>
+        {reply, state1} <span style="color:#555">=</span> f<span style="color:#555">.</span>(query, state) <span style="color:#09f;font-style:italic"># this is important!</span>
+        send pid, {name, reply}            <span style="color:#09f;font-style:italic">#d</span>
+        loop(name, f, state1)              <span style="color:#09f;font-style:italic"># tail-call to wait on #c again!</span>
     end
   end
 
-end
-</code></pre>
-
+end</code></pre></div>
 <p>First, regarding the <em>send</em> and <em>receive</em> stuff. This is concurrent code, which
 tends to be difficult to understand. Use the #[<strong>abcd</strong>] comments to orient
 yourself. Message passing happens in this order: #<strong>a</strong> -&gt; #<strong>c</strong> -&gt; #<strong>d</strong> -&gt;
@@ -274,43 +271,40 @@ that uses it.</p>
 sample implementation: a telecom’s Home Location Register (HLR) — whose role is
 to record the location of a phone user. Thus, we will specialize MyGenServer to
 store/query a user’s name and its location. Check the code:</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elixir" data-lang="elixir">defmodule <span style="color:#0a8;font-weight:bold">HLR</span> do
+  <span style="color:#309">@moduledoc</span> <span style="color:#c30">&#34;&#34;&#34;
+</span><span style="color:#c30">  HLR (Home Location Register) - record the location of a phone user
+</span><span style="color:#c30">  Use `i_am_at/2` to store the location of a user and `find/1` to query it
+</span><span style="color:#c30">  &#34;&#34;&#34;</span>
 
-<pre><code class="language-elixir">defmodule HLR do
-  @moduledoc &quot;&quot;&quot;
-  HLR (Home Location Register) - record the location of a phone user
-  Use `i_am_at/2` to store the location of a user and `find/1` to query it
-  &quot;&quot;&quot;
+  <span style="color:#309">@doc</span> <span style="color:#c30">&#34;&#34;&#34;
+</span><span style="color:#c30">  Start a new MyGenServer with `name` = `:hlr`
+</span><span style="color:#c30">  the `f` inside MyGenServer is going to be handle_call/2
+</span><span style="color:#c30">  `state` is initialized to an empty map
+</span><span style="color:#c30">  &#34;&#34;&#34;</span>
+  def start, <span style="color:#fc3">do</span>: <span style="color:#0a8;font-weight:bold">MyGenServer</span><span style="color:#555">.</span>start(<span style="color:#fc3">:hlr</span>, <span style="color:#555">&amp;</span>handle_call<span style="color:#555">/</span><span style="color:#f60">2</span>, %{})
 
-  @doc &quot;&quot;&quot;
-  Start a new MyGenServer with `name` = `:hlr`
-  the `f` inside MyGenServer is going to be handle_call/2
-  `state` is initialized to an empty map
-  &quot;&quot;&quot;
-  def start, do: MyGenServer.start(:hlr, &amp;handle_call/2, %{})
-
-  def stop, do: MyGenServer.stop(:hlr)
+  def stop, <span style="color:#fc3">do</span>: <span style="color:#0a8;font-weight:bold">MyGenServer</span><span style="color:#555">.</span>stop(<span style="color:#fc3">:hlr</span>)
 
   def i_am_at(who, where) do
-    MyGenServer.call(:hlr, {:i_am_at, who, where})
+    <span style="color:#0a8;font-weight:bold">MyGenServer</span><span style="color:#555">.</span>call(<span style="color:#fc3">:hlr</span>, {<span style="color:#fc3">:i_am_at</span>, who, where})
   end
 
   def find(who) do
-    MyGenServer.call(:hlr, {:find, who})
+    <span style="color:#0a8;font-weight:bold">MyGenServer</span><span style="color:#555">.</span>call(<span style="color:#fc3">:hlr</span>, {<span style="color:#fc3">:find</span>, who})
   end
 
-  @doc &quot;&quot;&quot;
-  The specific implementation of `f`
-  &quot;&quot;&quot;
-  def handle_call({:i_am_at, who, where}, map) do
-    {:ok, Map.put(map, who, where)}
+  <span style="color:#309">@doc</span> <span style="color:#c30">&#34;&#34;&#34;
+</span><span style="color:#c30">  The specific implementation of `f`
+</span><span style="color:#c30">  &#34;&#34;&#34;</span>
+  def handle_call({<span style="color:#fc3">:i_am_at</span>, who, where}, map) do
+    {<span style="color:#fc3">:ok</span>, <span style="color:#0a8;font-weight:bold">Map</span><span style="color:#555">.</span>put(map, who, where)}
   end
-  def handle_call({:find, who}, map) do
+  def handle_call({<span style="color:#fc3">:find</span>, who}, map) do
     {map[who], map}
   end
 
-end
-</code></pre>
-
+end</code></pre></div>
 <p>If you are familiar with using GenServer, the code and comments should be
 sufficient to understand how it works. If not, please check
 <a href="http://elixir-lang.org/getting-started/mix-otp/genserver.html" target="_blank">this</a>.</p>
@@ -407,6 +401,13 @@ scenes of <strong>handle_call</strong>, <strong>handle_cast</strong>, etc.</p>
             </div>
         </div>
         
-                
+        
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-117079100-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+        
     </body>
 </html>
