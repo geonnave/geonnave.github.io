@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on blogeo</title>
+    <title>Categories on Geo&#39;s blog</title>
     <link>https://geonnave.github.io/categories/</link>
-    <description>Recent content in Categories on blogeo</description>
+    <description>Recent content in Categories on Geo&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="https://geonnave.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crônicas</title>
+      <link>https://geonnave.github.io/categories/cr%C3%B4nicas/</link>
+      <pubDate>Wed, 05 Oct 2016 19:43:52 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/categories/cr%C3%B4nicas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Programming</title>
@@ -25,6 +34,15 @@
       <pubDate>Sat, 28 May 2016 22:25:31 -0300</pubDate>
       
       <guid>https://geonnave.github.io/categories/relatos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resenhas</title>
+      <link>https://geonnave.github.io/categories/resenhas/</link>
+      <pubDate>Mon, 27 Feb 2017 19:49:49 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/categories/resenhas/</guid>
       <description></description>
     </item>
     

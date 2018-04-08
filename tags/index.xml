@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on blogeo</title>
+    <title>Tags on Geo&#39;s blog</title>
     <link>https://geonnave.github.io/tags/</link>
-    <description>Recent content in Tags on blogeo</description>
+    <description>Recent content in Tags on Geo&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Apr 2016 21:27:45 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 05 Oct 2016 19:43:52 -0300</lastBuildDate>
     
 	<atom:link href="https://geonnave.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Tela E a Cela</title>
+      <link>https://geonnave.github.io/tags/a-tela-e-a-cela/</link>
+      <pubDate>Wed, 05 Oct 2016 19:43:52 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/tags/a-tela-e-a-cela/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curso Ator</title>
+      <link>https://geonnave.github.io/tags/curso-ator/</link>
+      <pubDate>Wed, 05 Oct 2016 19:43:52 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/tags/curso-ator/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Elixir</title>
@@ -57,6 +75,33 @@
     </item>
     
     <item>
+      <title>Método Científico</title>
+      <link>https://geonnave.github.io/tags/m%C3%A9todo-cient%C3%ADfico/</link>
+      <pubDate>Mon, 27 Feb 2017 19:49:49 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/tags/m%C3%A9todo-cient%C3%ADfico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflexão</title>
+      <link>https://geonnave.github.io/tags/reflex%C3%A3o/</link>
+      <pubDate>Mon, 27 Feb 2017 19:49:49 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/tags/reflex%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resenha</title>
+      <link>https://geonnave.github.io/tags/resenha/</link>
+      <pubDate>Mon, 27 Feb 2017 19:49:49 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/tags/resenha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shadow 600</title>
       <link>https://geonnave.github.io/tags/shadow-600/</link>
       <pubDate>Sat, 28 May 2016 22:25:31 -0300</pubDate>
@@ -71,6 +116,15 @@
       <pubDate>Tue, 01 Dec 2015 19:20:12 -0300</pubDate>
       
       <guid>https://geonnave.github.io/tags/sonho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teatro</title>
+      <link>https://geonnave.github.io/tags/teatro/</link>
+      <pubDate>Wed, 05 Oct 2016 19:43:52 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/tags/teatro/</guid>
       <description></description>
     </item>
     

@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on blogeo</title>
+    <title>Posts on Geo&#39;s blog</title>
     <link>https://geonnave.github.io/posts/</link>
-    <description>Recent content in Posts on blogeo</description>
+    <description>Recent content in Posts on Geo&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 May 2016 22:25:31 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 19:49:49 -0300</lastBuildDate>
     
 	<atom:link href="https://geonnave.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DuDiCRe — sobre O Discurso do Método</title>
+      <link>https://geonnave.github.io/posts/dudicre-discurso-do-metodo/</link>
+      <pubDate>Mon, 27 Feb 2017 19:49:49 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/posts/dudicre-discurso-do-metodo/</guid>
+      <description>DuDiCRe — sobre O Discurso do Método  qualquer um pode fazer qualquer quantidade de trabalho, desde que não seja o trabalho se deveria estar fazendo no momento
+(http://quoteinvestigator.com/2011/10/23/benchley-work/)
+ Sábado eu tinha uma missão: descer a lenha em um artigo pro mestrado. Obviamente, divaguei universos e tempos gigantescos, pesquisei livros e assuntos que ainda não tinha lido sobre as bases do meu tema, até perceber que eu ainda não tinha lido O Discurso do Método, de René Descartes.</description>
+    </item>
+    
+    <item>
+      <title>Desculpe o transtorno, preciso falar de Edileusa</title>
+      <link>https://geonnave.github.io/posts/desculpe-o-transtorno-edileusa/</link>
+      <pubDate>Wed, 05 Oct 2016 19:43:52 -0300</pubDate>
+      
+      <guid>https://geonnave.github.io/posts/desculpe-o-transtorno-edileusa/</guid>
+      <description>Conheci ela no arrasta pé do Galo Preto. Quando vi aquele corpo lindu desimbestando ao som de Banda Calipso, aqueles zóios de cearense obríqua e dissimulada, fiquei foi enfeitiçado. A tal da paxão bateu forte no peito, e o meu coração pulô pra fora igual bóde na grama verde adepois da chuva.
+Num demorô muito e nói já tava ingatado, um num largava do ôtro, a gente se via toda semana no Galo Preto.</description>
+    </item>
     
     <item>
       <title>Em Frente, Enfrente: a Trovoada</title>

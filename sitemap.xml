@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://geonnave.github.io/posts/dudicre-discurso-do-metodo/</loc>
+    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/posts/desculpe-o-transtorno-edileusa/</loc>
+    <lastmod>2016-10-05T19:43:52-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/posts/em-frente-enfrente-a-trovoada/</loc>
     <lastmod>2016-05-28T22:25:31-03:00</lastmod>
   </url>
@@ -23,7 +33,25 @@
   </url>
   
   <url>
+    <loc>https://geonnave.github.io/tags/a-tela-e-a-cela/</loc>
+    <lastmod>2016-10-05T19:43:52-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/categories/cr%C3%B4nicas/</loc>
+    <lastmod>2016-10-05T19:43:52-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/curso-ator/</loc>
+    <lastmod>2016-10-05T19:43:52-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,8 +86,20 @@
   </url>
   
   <url>
+    <loc>https://geonnave.github.io/</loc>
+    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/m%C3%A9todo-cient%C3%ADfico/</loc>
+    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/posts/</loc>
-    <lastmod>2016-05-28T22:25:31-03:00</lastmod>
+    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -74,8 +114,26 @@
   </url>
   
   <url>
+    <loc>https://geonnave.github.io/tags/reflex%C3%A3o/</loc>
+    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/categories/relatos/</loc>
     <lastmod>2016-05-28T22:25:31-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/resenha/</loc>
+    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/categories/resenhas/</loc>
+    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,18 +151,18 @@
   
   <url>
     <loc>https://geonnave.github.io/tags/</loc>
-    <lastmod>2016-04-22T21:27:45-03:00</lastmod>
+    <lastmod>2016-10-05T19:43:52-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/tags/teatro/</loc>
+    <lastmod>2016-10-05T19:43:52-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://geonnave.github.io/tags/viagem/</loc>
-    <lastmod>2016-05-28T22:25:31-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://geonnave.github.io/</loc>
     <lastmod>2016-05-28T22:25:31-03:00</lastmod>
     <priority>0</priority>
   </url>
