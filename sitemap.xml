@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://geonnave.github.io/posts/metodo/</loc>
+    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/posts/dudicre-discurso-do-metodo/</loc>
     <lastmod>2017-02-27T19:49:49-03:00</lastmod>
   </url>
@@ -45,7 +50,7 @@
   
   <url>
     <loc>https://geonnave.github.io/tags/ci%C3%AAncia/</loc>
-    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,6 +63,12 @@
   <url>
     <loc>https://geonnave.github.io/tags/curso-ator/</loc>
     <lastmod>2016-10-05T19:43:52-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geonnave.github.io/categories/desmistificando/</loc>
+    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,19 +104,19 @@
   
   <url>
     <loc>https://geonnave.github.io/</loc>
-    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://geonnave.github.io/tags/m%C3%A9todo-cient%C3%ADfico/</loc>
-    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://geonnave.github.io/posts/</loc>
-    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,7 +132,7 @@
   
   <url>
     <loc>https://geonnave.github.io/tags/reflex%C3%A3o/</loc>
-    <lastmod>2017-02-27T19:49:49-03:00</lastmod>
+    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
     <priority>0</priority>
   </url>
   
