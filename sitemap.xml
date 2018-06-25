@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://geonnave.github.io/posts/nodebook/</loc>
+    <lastmod>2018-06-25T01:00:30-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/posts/metodo/</loc>
     <lastmod>2018-04-25T00:49:06-03:00</lastmod>
   </url>
@@ -44,13 +49,20 @@
   </url>
   
   <url>
+    <loc>https://geonnave.github.io/categories/academia/</loc>
+    <lastmod>2018-06-25T01:00:30-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/categories/</loc>
+    <lastmod>2018-06-25T01:00:30-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://geonnave.github.io/tags/ci%C3%AAncia/</loc>
-    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
+    <lastmod>2018-06-25T01:00:30-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,7 +116,7 @@
   
   <url>
     <loc>https://geonnave.github.io/</loc>
-    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
+    <lastmod>2018-06-25T01:00:30-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,8 +127,14 @@
   </url>
   
   <url>
+    <loc>https://geonnave.github.io/tags/pesquisa/</loc>
+    <lastmod>2018-06-25T01:00:30-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://geonnave.github.io/posts/</loc>
-    <lastmod>2018-04-25T00:49:06-03:00</lastmod>
+    <lastmod>2018-06-25T01:00:30-03:00</lastmod>
     <priority>0</priority>
   </url>
   
